@@ -1,0 +1,1 @@
+This is a stupid little random number generator I put together. The styling and what not is all mine. Did some work on the footer to make it more responsive on small screens. Basically junk. The button doesn't actually call a function, it reloads the page. 
