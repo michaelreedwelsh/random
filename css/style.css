@@ -9,10 +9,15 @@
 	padding-top:0px;
 	left:0px;
 }
+
 body {
 	background-color: rgb(200, 200, 200);
 }
+h1 {
+  padding-top: 50px;
+}
 .wrapper {
+  height: 500px;
 	text-align: center;
 	font-family: "Candal", Arial, Sans-serif;
 	background-color: white;
@@ -22,9 +27,17 @@ body {
 	border-radius: 15px;
 	box-shadow: 0 0 10px 5px;
 }
-div p {
-	padding-top: 30px;
+#doc {
+  font-size: 2.5em;
+	padding-top: 20px;
 }
+
+input[type=range] {
+  width: 50%;
+  margin: 50px auto;
+
+}
+
 
 /*FOOOOOOOOTER STUFFFFFF */
 

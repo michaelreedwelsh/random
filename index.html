@@ -12,9 +12,15 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<h1>RNG FUN</h1>
-			<p id="doc"></p><br>
-			<button  class="btn btn-large btn-danger" type="button" onClick="window.location.reload();">NEW NUMBER</button>
+			<h1>Boring Random Number Generator!</h1>
+			<br>
+			<p>Set max value</p>
+			<p>1 - 1000</p>
+			<input id="rangeNum" type="range" max="1000" min="1">
+			<button  class="btn btn-large btn-danger" type="button" id="newNumber">GET NUMBER</button>
+
+			<p id="doc"></p>
+			
 			
 		</div>
 	</body>
@@ -41,5 +47,6 @@
         
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script async src="js/script.js"></script>
 </html>
