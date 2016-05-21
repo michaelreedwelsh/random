@@ -1,8 +1,15 @@
+window.onload = function () {
+	document.getElementById("rangeNum").value = "500";
+	updateNum();
+}
 
 	
 
 
-
+function updateNum () {
+    var rangeNum = $("#rangeNum").val().toString();
+	document.getElementById("max").innerHTML = "Max Value: " + rangeNum;
+}
 
 
 
@@ -12,4 +19,7 @@ function getRandomNum() {
 	document.getElementById("doc").innerHTML = "Your random number is " + randomNumber;
 }
 
+
 $("#newNumber").click(getRandomNum); 
+
+$("#rangeNum").change(updateNum);
